@@ -1,4 +1,6 @@
-﻿## Getting Started
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ridomin/PnPSolution) 
+
+## Getting Started
 
 In the root directory of the project...
 
