@@ -1,13 +1,9 @@
-﻿<template>
+<template>
   <div>
     <main id="mainContent">
       <div class="text-center header">
         <h1>PnPSolution</h1>
         <p>This is placeholder text. Your web app description goes here.</p>
-        <a
-          href="https://github.com/Microsoft/WebTemplateStudio"
-          class="btn btn-primary my-2"
-        >Link to our Github</a>
       </div>
 
       <div class="container">

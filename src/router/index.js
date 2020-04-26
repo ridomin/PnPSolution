@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-
 import Grid from '@/views/Grid.vue'
 import List from '@/views/List.vue'
 import masterDetail from '@/views/Master_Detail.vue'
