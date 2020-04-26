@@ -64,8 +64,7 @@
   ],
   "standard": {
     "ignore": [
-      "server/iothub/dtclient.js",
-      "server/iothub/iothub_token_credentials.js"
+      "server/iothub/dtclient/*"
     ]
   }
 }

@@ -2,7 +2,7 @@ const hub = require('azure-iothub')
 const dtService = require('azure-iot-digitaltwins-service')
 const moment = require('moment')
 
-const DTClient = require('./dtclient').DTClient
+const DTClient = require('./dtclient/dtclient').DTClient
 
 const getDeviceList = (connectionString, cb) => {
   const registry = hub.Registry.fromConnectionString(connectionString)
