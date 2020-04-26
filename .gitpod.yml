@@ -2,6 +2,10 @@ tasks:
   - init: npm install && npm run build
     command: npm run start
 
+ports:
+  - port: 3000
+
 vscode:
   extensions:
     - octref.vetur@0.24.0:wQwUWmMBrV2Y+ZN1GPaapg==
+    - chenxsan.vscode-standardjs@1.2.3:2t/tdtP+Oe0FOyAxtlmquA==

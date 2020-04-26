@@ -1,4 +1,4 @@
-﻿const shortLoremIpsum = 'Lorem id sint aliqua tempor tempor sit. Ad dolor dolor ut nulla mollit dolore non eiusmod Lorem tempor nisi cillum.';
+const shortLoremIpsum = 'Lorem id sint aliqua tempor tempor sit. Ad dolor dolor ut nulla mollit dolore non eiusmod Lorem tempor nisi cillum.'
 const sampleData = {}
 const longLoremIpsum = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus
@@ -115,6 +115,5 @@ sampleData.textAssets = [
     imageSrc: 'https://wtsrepository.blob.core.windows.net/sampledata/CompanyI.svg'
   }
 ]
-
 
 module.exports = sampleData
