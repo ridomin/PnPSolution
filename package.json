@@ -1,0 +1,64 @@
+{
+  "name": "pnpsolution",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cookie-parser": "1.4.4",
+    "debug": "4.1.1",
+    "express": "4.17.1",
+    "http-errors": "1.7.3",
+    "morgan": "1.9.1",
+    "bootstrap": "4.4.1",
+    "bootstrap-vue": "2.1.0",
+    "core-js": "3.6.4",
+    "vue": "2.6.11",
+    "vue-router": "3.1.5",
+    "fs-extra": "8.1.0",
+    "dotenv": "8.2.0",
+    "mongodb": "3.4.0",
+    "mongoose": "5.8.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "devDependencies": {
+    "concurrently": "5.0.2",
+    "@vue/cli-plugin-babel": "4.2.0",
+    "@vue/cli-plugin-eslint": "4.2.0",
+    "@vue/cli-service": "4.2.0",
+    "babel-eslint": "10.0.3",
+    "eslint": "6.7.2",
+    "eslint-plugin-vue": "6.1.2",
+    "vue-template-compiler": "2.6.11"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn start-frontend || npm run start-frontend\" \"yarn start-backend || npm run start-backend\"",
+    "start-backend": "node server/server.js",
+    "start-frontend": "vue-cli-service serve --open",
+    "build": "node ./buildScript",
+    "lint": "vue-cli-service lint"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
