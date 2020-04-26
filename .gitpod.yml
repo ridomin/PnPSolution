@@ -1,4 +1,9 @@
 tasks:
+  - init: npm install -g typescript nodemon yarn
+    command: npm globals
+
+
+tasks:
   - init: npm install && npm run build
     command: npm run start
 

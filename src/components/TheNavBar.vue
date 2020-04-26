@@ -1,4 +1,4 @@
-﻿//TODO Web Template Studio: Add a new link in the NavBar for your page here.
+//TODO Web Template Studio: Add a new link in the NavBar for your page here.
 // A skip link is included as an accesibility best practice. For more information visit https://www.w3.org/WAI/WCAG21/Techniques/general/G1.
 <template>
   <div>
@@ -8,7 +8,6 @@
     <b-nav class="navbar navbar-expand-sm navbar-light border-bottom justify-content-between">
       <a class="navbar-brand" href="/">PnPSolution</a>
       <div class="navbar-nav">
-        <b-nav-item class="nav-item nav-link active" to="/">Blank</b-nav-item>
         <b-nav-item class="nav-item nav-link active" to="/Grid">Grid</b-nav-item>
         <b-nav-item class="nav-item nav-link active" to="/List">List</b-nav-item>
         <b-nav-item class="nav-item nav-link active" to="/Master_Detail">Master_Detail</b-nav-item>
